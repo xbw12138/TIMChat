@@ -29,8 +29,16 @@
 
 -------
 
+![](https://github.com/xbw12138/TIMChat/blob/master/image/Screenshot_20180303-154147.png)
+
+![](https://github.com/xbw12138/TIMChat/blob/master/image/Screenshot_20180303-154138.png)
 
 
+-------
 
+## 问题反馈
+
+新浪微博  @便不写作业
+QQ       1076351865
 
 
