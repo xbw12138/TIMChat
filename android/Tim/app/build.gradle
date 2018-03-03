@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.xbw.tim"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile files('libs/bugly_2.4.0_imsdk_release.jar')
+    compile files('libs/imsdk.jar')
+    compile files('libs/imsdk_group_ext.jar')
+    compile files('libs/imsdk_msg_ext.jar')
+    compile files('libs/imsdk_sns_ext.jar')
+    compile files('libs/mobilepb.jar')
+    compile files('libs/qalsdk.jar')
+    compile files('libs/soload.jar')
+    compile files('libs/tls_sdk.jar')
+    compile files('libs/wup_1.0.0-SNAPSHOT.jar')
+
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
+    compile 'com.squareup.okio:okio:1.8.0'
+}

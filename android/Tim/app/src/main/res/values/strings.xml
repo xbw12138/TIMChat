@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tim</string>
+    <string name="loginsucc">登录成功</string>
+    <string name="loginfail">登录失败</string>
+    <string name="importsucc">导入账号成功</string>
+    <string name="importfail">导入账号失败</string>
+    <string name="sendsucc">发送消息成功</string>
+    <string name="sendfail">发送消息失败</string>
+</resources>
